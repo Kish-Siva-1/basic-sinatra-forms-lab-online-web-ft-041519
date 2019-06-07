@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
   
-  post '/reverse' do
+  post '/newteam' do
     params
    
     erb :newteam
