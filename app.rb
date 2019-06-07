@@ -13,15 +13,9 @@ class App < Sinatra::Base
     @pg = params[:pg]
     @pf = params[:pf]
     @sg = params[:sg]
+    @sf = params[:sf]
+    @c = params[:c]
     
-    
-    Team Name: <%= @name %>
-  Coach: <%= @coach %>
-  Point Guard: <%=@pg %>
-  Power Forward: <%=@pf %>
-  Shooting Guard: <%=@sg %>
-  Small Forward: <%=@sf %>
-  Center: <%=@c %>
     erb :team
   end
 
